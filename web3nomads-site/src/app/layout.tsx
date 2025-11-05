@@ -15,8 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Web3Nomads — Build the future with Web3",
+  title: "Web3Nomads — Taste the freedom of Web3",
   description: "Join founders and developers building real-world Web3 products.",
+  icons: {
+    icon: '/logo.png'
+  },
 };
 
 export default function RootLayout({
