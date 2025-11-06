@@ -42,6 +42,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Founders intro (two-column) */}
+      <section className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+        <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+          {/* Image placeholder on the left */}
+          <div className="relative w-full overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-900">
+            <div className="relative aspect-[4/3] w-full">
+              <Image
+                src="/visionary.png"
+                alt="Founders illustration"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                style={{ objectFit: "cover", objectPosition: "center" }}
+              />
+            </div>
+          </div>
+
+          {/* Text on the right */}
+          <div>
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              Embark on a transformative journey as a Web3 Founder
+            </h2>
+            <p className="mt-4 text-zinc-600 dark:text-zinc-400">
+              Ready to build the future with Web3? Web3Nomads is your launchpad, supporting founders and developers to
+              turn bold ideas into real-world solutions using blockchain and smart contracts. Join us to start building
+              and scale your vision.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Programs / Activities */}
       <section id="programs" className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
         <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Join, Build & Grow Together</h2>
