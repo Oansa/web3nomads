@@ -141,7 +141,9 @@ export default function Home() {
                 Join Discord
               </a>
               <a
-                href="#"
+                href="https://calendly.com/kamandemuiruri101/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-orange-500 px-6 py-3 text-sm font-medium text-orange-500 transition hover:bg-orange-500 hover:text-white"
               >
                 Book a call
