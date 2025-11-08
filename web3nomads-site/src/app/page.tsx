@@ -26,7 +26,9 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#join"
+                href="https://chat.whatsapp.com/LOFGilccRjQ0HlwL8sDB1p"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-orange-500 px-6 py-3 text-sm font-medium text-white transition hover:bg-orange-600"
               >
                 Join the nomads
@@ -159,7 +161,9 @@ export default function Home() {
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#"
+                href="https://chat.whatsapp.com/LOFGilccRjQ0HlwL8sDB1p"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-orange-500 px-6 py-3 text-sm font-medium text-white transition hover:bg-orange-600"
               >
                 Join WhatsApp
