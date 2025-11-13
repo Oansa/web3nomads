@@ -5,7 +5,7 @@ export default function Home() {
       {/* Hero layering: backtop.png base */}
       <section className="relative min-h-[80vh] sm:min-h-[90vh] overflow-hidden bg-black">
         <Image
-          src="/backtop.png"
+          src="/background2.svg"
           alt="Hero background"
           fill
           priority
