@@ -22,7 +22,7 @@ export default function Home() {
               Taste the freedom of Web3
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-zinc-200">
-              Join a community of enthusiasts turning bold ideas into real-world solutions using blockchain and crypto.
+              Join a community of enthusiasts turning bold ideas into real-world solutions using blockchain and AI.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
@@ -38,6 +38,49 @@ export default function Home() {
                 className="inline-flex items-center justify-center rounded-full border border-white/60 px-6 py-3 text-sm font-medium text-white transition hover:bg-white/10"
               >
                 Explore programs
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vibe coding section */}
+      <section className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+        <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+          {/* Image on the left */}
+          <div className="relative w-full overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-900">
+            <div className="relative aspect-[4/3] w-full">
+              <Image
+                src="/vibecode.png"
+                alt="Vibe coding illustration"
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                style={{ objectFit: "cover", objectPosition: "center" }}
+              />
+            </div>
+          </div>
+
+          {/* Text on the right */}
+          <div>
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Vibe coding in Web3</h2>
+            <p className="mt-4 text-zinc-600 dark:text-zinc-400">
+              Vibe coding is our playbook for building fast, together. Experience our creative sessions where builders, designers,
+              and founders prototype, iterate, and ship. It’s less about perfection and more about momentum: rapid
+              collaboration, shared learning, and shipping small experiments that surface the right questions.
+            </p>
+            <p className="mt-4 text-zinc-600 dark:text-zinc-400">
+              Our community's purpose is to connect curious people who want to explore Web3's possibilities, trade
+              skills, and turn ideas into real products. We champion open collaboration, hands-on learning, and
+              supporting founders from prototype to launch.
+            </p>
+            <div className="mt-6">
+              <a
+                href="https://chat.whatsapp.com/LOFGilccRjQ0HlwL8sDB1p"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-full bg-orange-500 px-5 py-2 text-sm font-medium text-white transition hover:bg-orange-600"
+              >
+                Join a vibe session
               </a>
             </div>
           </div>
